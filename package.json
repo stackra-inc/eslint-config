@@ -106,10 +106,20 @@
   "module": "./dist/index.js",
   "stackra": {
     "publish": {
+      "config": {
+        "source": "config/",
+        "destination": "src/config/",
+        "description": "ESLint linting configuration"
+      },
       "steering": {
         "source": ".kiro/steering/",
         "destination": ".kiro/steering/{module}/",
-        "description": "Kiro AI steering files"
+        "description": "Kiro AI steering files for linting"
+      },
+      "hooks": {
+        "source": ".kiro/hooks/",
+        "destination": ".kiro/hooks/",
+        "description": "Kiro hooks"
       }
     }
   }
