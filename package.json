@@ -1,6 +1,6 @@
 {
   "name": "@stackra/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Shared ESLint configuration presets for Stackra packages",
   "private": false,
   "license": "MIT",
