@@ -1,5 +1,5 @@
 import { defineConfig } from 'tsup';
-import { basePreset } from '@nesvel/tsup-config';
+import { basePreset } from '@stackra/tsup-config';
 
 /**
  * Build configuration for @stackra/eslint-config

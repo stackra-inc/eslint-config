@@ -11,7 +11,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
-- Migrated npm scope from `@nesvel/eslint-config` to `@stackra/eslint-config`
+- Migrated npm scope from `@stackra/eslint-config` to `@stackra/eslint-config`
 - Updated repository to `stackra-inc/eslint-config` on GitHub
 - Updated author to Stackra L.L.C
 - Updated CI/CD workflows for the new scope and repository

@@ -97,7 +97,7 @@ export const config: Linter.Config[] = [
             '.test.',
             '.spec.',
             'node_modules',
-            'jest.config.ts',
+            'vitest.config.ts',
             'tsconfig.spec.json',
             'tsconfig.scripts.json',
           ],
@@ -116,7 +116,7 @@ export const config: Linter.Config[] = [
   {
     ignores: [
       'dist/**', // Compiled JavaScript output
-      'coverage/**', // Jest coverage reports
+      'coverage/**', // vitest coverage reports
     ],
   },
 ];
