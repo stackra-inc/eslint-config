@@ -54,13 +54,13 @@ export default nestjsConfig;
 
 ## Available Presets
 
-| Export         | Description                                  |
-| -------------- | -------------------------------------------- |
+| Export         | Description                                   |
+| -------------- | --------------------------------------------- |
 | `baseConfig`   | TypeScript base rules with strict type checks |
-| `viteConfig`   | Vite project configuration                   |
-| `reactConfig`  | React with hooks and JSX rules               |
-| `nextJsConfig` | Next.js with `@next/eslint-plugin-next`      |
-| `nestjsConfig` | NestJS with decorator and DI rules           |
+| `viteConfig`   | Vite project configuration                    |
+| `reactConfig`  | React with hooks and JSX rules                |
+| `nextJsConfig` | Next.js with `@next/eslint-plugin-next`       |
+| `nestjsConfig` | NestJS with decorator and DI rules            |
 
 ## Peer Dependencies
 
