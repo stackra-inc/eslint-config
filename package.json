@@ -66,21 +66,21 @@
     "stackra"
   ],
   "devDependencies": {
-    "@darraghor/eslint-plugin-nestjs-typed": "^6.9.15",
-    "@eslint/js": "^9.39.1",
+    "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
+    "@eslint/js": "^10.0.1",
     "@nesvel/typescript-config": "^1.0.3",
     "@next/eslint-plugin-next": "^16.0.7",
-    "@types/node": "^24.10.1",
-    "eslint": "^9.39.1",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-turbo": "^2.6.3",
-    "globals": "^16.5.0",
+    "globals": "^17.5.0",
     "prettier": "^3.7.4",
     "tsup": "^8.5.1",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.48.1"
   },
   "peerDependencies": {
