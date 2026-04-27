@@ -1,6 +1,6 @@
 {
   "name": "@stackra/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shared ESLint configuration presets for Stackra packages",
   "private": false,
   "license": "MIT",
@@ -66,7 +66,7 @@
     "stackra"
   ],
   "devDependencies": {
-    "@darraghor/eslint-plugin-nestjs-typed": "^6.9.15",
+    "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
     "@eslint/js": "^9.39.1",
     "@nesvel/typescript-config": "^1.0.3",
     "@next/eslint-plugin-next": "^16.0.7",
@@ -80,12 +80,12 @@
     "globals": "^16.5.0",
     "prettier": "^3.7.4",
     "tsup": "^8.5.1",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.48.1"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.0"
   },
   "peerDependencies": {
     "eslint": ">=9.0.0",
-    "typescript": ">=5.0.0"
+    "typescript": ">=5.0.0 || >=6.0.0"
   },
   "engines": {
     "node": ">=20",
