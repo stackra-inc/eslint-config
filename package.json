@@ -103,5 +103,14 @@
       "vite": "^7.2.6"
     }
   },
-  "module": "./dist/index.js"
+  "module": "./dist/index.js",
+  "stackra": {
+    "publish": {
+      "steering": {
+        "source": ".kiro/steering/",
+        "destination": ".kiro/steering/{module}/",
+        "description": "Kiro AI steering files"
+      }
+    }
+  }
 }
