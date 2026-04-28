@@ -18,7 +18,7 @@ importers:
         version: 7.28.5(@babel/core@7.28.5)
       '@stackra/tsup-config':
         specifier: ^1.0.6
-        version: 1.0.6(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
+        version: 1.0.8(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.5.2
@@ -40,10 +40,10 @@ importers:
         version: 16.2.4
       '@stackra/prettier-config':
         specifier: ^1.0.5
-        version: 1.0.5(prettier@3.8.3)(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
+        version: 1.0.7(prettier@3.8.3)(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
       '@stackra/typescript-config':
         specifier: ^1.0.9
-        version: 1.0.9(typescript@6.0.3)
+        version: 1.0.10(typescript@6.0.3)
       '@types/node':
         specifier: ^25.6.0
         version: 25.6.0
@@ -618,12 +618,6 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@nesvel/tsup-config@1.0.3':
-    resolution: {integrity: sha512-e1+4VREER/saszislU/uvVU+Kzjqa5SZU3C/P9bPah9DrHr32clDdxKDWO73TRY89lXSanU0nsH/4+MsnpeWVg==}
-    engines: {node: '>=20', npm: '>=10'}
-    peerDependencies:
-      tsup: '>=8.0.0'
-
   '@next/eslint-plugin-next@16.2.4':
     resolution: {integrity: sha512-tOX826JJ96gYK/go18sPUgMq9FK1tqxBFfUCEufJb5XIkWFFmpgU7mahJANKGkHs7F41ir3tReJ3Lv5La0RvhA==}
 
@@ -869,20 +863,20 @@ packages:
     resolution: {integrity: sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==}
     engines: {node: '>=18'}
 
-  '@stackra/prettier-config@1.0.5':
-    resolution: {integrity: sha512-UxLVl7sd8R3Zh856AbB+PSBoUBD6CJM+jQetLwpXkcKv82Kfh22B0aCVX3IMBFNrFn/oP12Hm32bSVZNWEOX9w==}
-    engines: {node: '>=20', pnpm: '>=9.0.0'}
+  '@stackra/prettier-config@1.0.7':
+    resolution: {integrity: sha512-VMrbdC/O8IVe4w3b2J71sQBsMZbs4Xb31/V+UblT7dwTyN0VKHQdEj6l0H17faCXVx23FKk2Uoi8tseGs1xeFQ==}
+    engines: {node: '>=22', pnpm: '>=9.0.0'}
     peerDependencies:
       prettier: '>=3.0.0'
 
-  '@stackra/tsup-config@1.0.6':
-    resolution: {integrity: sha512-R0bSuwXyTvV1imeohLpTfcpTQfqe3nO4nCJduN+tAvicpRUW3ETh8ddpHSDwXEfCpjL1k57PByK1JLYZl8Y1Mg==}
-    engines: {node: '>=20', pnpm: '>=9.0.0'}
+  '@stackra/tsup-config@1.0.8':
+    resolution: {integrity: sha512-kf+GBWa7OXYu5REM0lumUxf+slhg56ZRZURvQBgOBufvJkNOsf0vQxrLNMC5MboMHSiTLh6hHTdJEXChSMkCNg==}
+    engines: {node: '>=22', pnpm: '>=9.0.0'}
     peerDependencies:
       tsup: '>=8.0.0'
 
-  '@stackra/typescript-config@1.0.9':
-    resolution: {integrity: sha512-ZgI06bTj1MbZtJS+ndEPA/opyOXHRUpcQ6M9SeBeKXxspeG0fVSFkC8SW0C1n4T0ToACgd30JWydNL0Vh4lejg==}
+  '@stackra/typescript-config@1.0.10':
+    resolution: {integrity: sha512-CNUxuk9Gd4PTjdHNbzXgulAaRDIT2Vs3r1f2MjcRQ1XfdzXeU0IHWD6jUvHF9xsdFN/1jOvCMbGIStUyqZYNYg==}
     engines: {node: '>=22', pnpm: '>=9.0.0'}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1885,8 +1879,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  libphonenumber-js@1.12.30:
-    resolution: {integrity: sha512-KxH7uIJFD6+cR6nhdh+wY6prFiH26A3W/W1gTMXnng2PXSwVfi5MhYkdq3Z2Y7vhBVa1/5VJgpNtI76UM2njGA==}
+  libphonenumber-js@1.12.42:
+    resolution: {integrity: sha512-oKQFPTibqQwZZkChCDVMFVJXMZdyJNqDWZWYNn8BgyAaK/6yFJEowxCY0RVFirRyWP63hMRuKlkSEd9qlvbWXg==}
 
   lightningcss-android-arm64@1.32.0:
     resolution: {integrity: sha512-YK7/ClTt4kAK0vo6w3X+Pnm0D2cf2vPHbhOXdoNti1Ga0al1P4TBZhwjATvjNwLEBCnKvjJc2jQgHXH0NEwlAg==}
@@ -2627,8 +2621,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  validator@13.15.23:
-    resolution: {integrity: sha512-4yoz1kEWqUjzi5zsPbAS/903QXSYp0UOtHsPpp7p9rHAw/W+dkInskAE386Fat3oKRROwO98d9ZB0G4cObgUyw==}
+  validator@13.15.35:
+    resolution: {integrity: sha512-TQ5pAGhd5whStmqWvYF4OjQROlmv9SMFVt37qoCBdqRffuuklWYQlCNnEs2ZaIBD1kZRNnikiZOS1eqgkar0iw==}
     engines: {node: '>= 0.10'}
 
   vite@8.0.10:
@@ -3365,10 +3359,6 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@nesvel/tsup-config@1.0.3(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))':
-    dependencies:
-      tsup: 8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2)
-
   '@next/eslint-plugin-next@16.2.4':
     dependencies:
       fast-glob: 3.3.1
@@ -3510,18 +3500,18 @@ snapshots:
 
   '@simple-libs/stream-utils@1.2.0': {}
 
-  '@stackra/prettier-config@1.0.5(prettier@3.8.3)(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))':
+  '@stackra/prettier-config@1.0.7(prettier@3.8.3)(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))':
     dependencies:
-      '@nesvel/tsup-config': 1.0.3(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
+      '@stackra/tsup-config': 1.0.8(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))
       prettier: 3.8.3
     transitivePeerDependencies:
       - tsup
 
-  '@stackra/tsup-config@1.0.6(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))':
+  '@stackra/tsup-config@1.0.8(tsup@8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2))':
     dependencies:
       tsup: 8.5.1(jiti@2.6.1)(postcss@8.5.12)(typescript@6.0.3)(yaml@2.8.2)
 
-  '@stackra/typescript-config@1.0.9(typescript@6.0.3)':
+  '@stackra/typescript-config@1.0.10(typescript@6.0.3)':
     dependencies:
       typescript: 6.0.3
 
@@ -3861,8 +3851,8 @@ snapshots:
   class-validator@0.14.3:
     dependencies:
       '@types/validator': 13.15.10
-      libphonenumber-js: 1.12.30
-      validator: 13.15.23
+      libphonenumber-js: 1.12.42
+      validator: 13.15.35
 
   cli-cursor@5.0.0:
     dependencies:
@@ -4696,7 +4686,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  libphonenumber-js@1.12.30: {}
+  libphonenumber-js@1.12.42: {}
 
   lightningcss-android-arm64@1.32.0:
     optional: true
@@ -5490,7 +5480,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  validator@13.15.23: {}
+  validator@13.15.35: {}
 
   vite@8.0.10(@types/node@25.6.0)(esbuild@0.27.0)(jiti@2.6.1)(yaml@2.8.2):
     dependencies:
