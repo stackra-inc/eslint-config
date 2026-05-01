@@ -1,11 +1,21 @@
 # Changelog
 
-All notable changes to `@stackra/eslint-config` will be documented in this
-file.
+All notable changes to `@stackra/eslint-config` will be documented in this file.
 
-The format is based on
-[Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project
-adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.10] - 2026-05-01
+
+### Fixed
+
+- Fixed tsconfig extends path to resolve `@stackra/typescript-config/base` correctly
+
+### Changed
+
+- Moved `@stackra/tsup-config` and `@stackra/typescript-config` to `dependencies` for correct turbo build ordering
+- Use `workspace:*` for all internal tool dependencies
 
 ## [1.0.6] - 2025-07-14
 
