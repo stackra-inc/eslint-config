@@ -1,6 +1,6 @@
 {
   "name": "@stackra/eslint-config",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Shared ESLint configuration presets for Stackra packages",
   "private": false,
   "license": "MIT",
@@ -52,6 +52,7 @@
     "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
     "@eslint/js": "^9.28.0",
     "@next/eslint-plugin-next": "^16.2.4",
+    "@stackra/standardize": "^1.0.2",
     "@types/node": "^25.6.0",
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.8",
@@ -75,7 +76,7 @@
   },
   "engines": {
     "node": ">=22",
-    "pnpm": ">=10"
+    "pnpm": ">=9.0.0"
   },
   "packageManager": "pnpm@10.33.2",
   "sideEffects": false,
@@ -92,9 +93,9 @@
     "url": "https://github.com/stackra-inc/eslint-config.git"
   },
   "dependencies": {
-    "@stackra/tsup-config": "workspace:*",
-    "@stackra/typescript-config": "workspace:*",
-    "@babel/preset-typescript": "^7.28.5"
+    "@babel/preset-typescript": "^7.28.5",
+    "@stackra/tsup-config": "^1.0.10",
+    "@stackra/typescript-config": "^1.0.11"
   },
   "module": "./dist/index.js",
   "stackra": {
@@ -119,7 +120,8 @@
   "pnpm": {
     "overrides": {
       "eslint": "^9.28.0",
-      "@eslint/js": "^9.28.0"
+      "@eslint/js": "^9.28.0",
+      "vite": "^7.2.6"
     }
   }
 }
