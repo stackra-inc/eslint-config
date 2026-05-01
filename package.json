@@ -1,6 +1,6 @@
 {
   "name": "@stackra/eslint-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Shared ESLint configuration presets for Stackra packages",
   "private": false,
   "license": "MIT",
@@ -49,31 +49,21 @@
     "@commitlint/cli": "^20.5.2",
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/types": "^20.5.0",
-    "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
-    "@eslint/js": "^9.28.0",
-    "@next/eslint-plugin-next": "^16.2.4",
     "@stackra/prettier-config": "^1.0.0",
     "@stackra/standardize": "^1.0.2",
     "@types/node": "^25.6.0",
     "eslint": "^9.28.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-only-warn": "^1.2.1",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-turbo": "^2.9.6",
-    "globals": "^17.5.0",
     "husky": "^9.1.7",
     "jsdom": "^29.1.0",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.1",
     "vitest": "^4.1.5"
   },
   "peerDependencies": {
-    "eslint": ">=9.39.4",
-    "typescript": ">=6.0.3"
+    "eslint": ">=9.0.0",
+    "typescript": ">=5.0.0"
   },
   "engines": {
     "node": ">=22",
@@ -95,8 +85,18 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.28.5",
+    "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
+    "@eslint/js": "^9.28.0",
+    "@next/eslint-plugin-next": "^16.2.4",
     "@stackra/tsup-config": "^1.0.0",
-    "@stackra/typescript-config": "^1.0.0"
+    "@stackra/typescript-config": "^1.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-only-warn": "^1.2.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-turbo": "^2.9.6",
+    "globals": "^17.5.0",
+    "typescript-eslint": "^8.59.1"
   },
   "module": "./dist/index.js",
   "stackra": {
