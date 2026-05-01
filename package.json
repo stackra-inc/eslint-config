@@ -95,8 +95,8 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.28.5",
-    "@stackra/tsup-config": "^1.0.10",
-    "@stackra/typescript-config": "^1.0.11"
+    "@stackra/tsup-config": "^1.0.0",
+    "@stackra/typescript-config": "^1.0.0"
   },
   "module": "./dist/index.js",
   "stackra": {
