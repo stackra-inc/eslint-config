@@ -86,7 +86,7 @@
   "dependencies": {
     "@babel/preset-typescript": "^7.28.5",
     "@darraghor/eslint-plugin-nestjs-typed": "^7.1.31",
-    "@eslint/js": "^9.28.0",
+    "@eslint/js": "^10.0.1",
     "@next/eslint-plugin-next": "^16.2.4",
     "@stackra/tsup-config": "^1.0.0",
     "@stackra/typescript-config": "^1.0.0",
@@ -121,7 +121,7 @@
   "pnpm": {
     "overrides": {
       "eslint": "^9.28.0",
-      "@eslint/js": "^9.28.0",
+      "@eslint/js": "^10.0.1",
       "vite": "^7.2.6"
     }
   }
