@@ -52,10 +52,10 @@
     "@stackra/prettier-config": "^1.0.0",
     "@stackra/standardize": "^1.0.2",
     "@types/node": "^25.6.0",
-    "eslint": "^9.28.0",
+    "eslint": "^10.3.0",
     "husky": "^9.1.7",
     "jsdom": "^29.1.0",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.0.2",
     "prettier": "^3.8.3",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
@@ -120,7 +120,7 @@
   },
   "pnpm": {
     "overrides": {
-      "eslint": "^9.28.0",
+      "eslint": "^10.3.0",
       "@eslint/js": "^9.28.0",
       "vite": "^7.2.6"
     }
